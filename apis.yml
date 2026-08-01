@@ -1,7 +1,31 @@
 aid: schuettflix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schuettflix.png
 name: Schuettflix
-description: Schuettflix is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Schuettflix is a German digital logistics platform for the construction
+  industry, founded in 2018 in Guetersloh. It operates a neutral B2B
+  marketplace that connects construction companies, bulk-material suppliers,
+  freight forwarders and waste-disposal firms in a single fully digital
+  workflow. Through its iOS and Android apps, customers order sand, gravel and
+  crushed stone with transparent real-time pricing, coordinate dispatch and
+  transport, capture delivery documentation, manage routes, and handle
+  mineral-waste disposal and circular-economy recycling of construction
+  materials. The company digitizes the traditionally analog and fragmented
+  process of procuring and delivering bulk goods, earning a commission on the
+  transactions facilitated through its platform. It was surfaced as a portfolio
+  company of Speedinvest. No public developer API, developer portal, or
+  machine-readable API specification was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/schuettflix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Construction
+- Logistics
+- Marketplace
+- Bulk Materials
+- Circular Economy
+- Waste Management
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.schuettflix.com/global/en/
+- type: GitHubOrganization
+  url: https://github.com/schuettflix
+- type: Blog
+  url: https://www.schuettflix.com/global/en/about-us/news-and-press/
+- type: PrivacyPolicy
+  url: https://www.schuettflix.com/global/en/legal/privacy-policy/
+- type: DomainSecurity
+  url: security/schuettflix-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
